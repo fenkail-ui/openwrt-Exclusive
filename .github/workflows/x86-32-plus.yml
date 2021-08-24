@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-32-plus
+name: x86-32-plus-5.4
 
 on:
   repository_dispatch:
