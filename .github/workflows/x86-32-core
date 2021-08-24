@@ -24,7 +24,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86-core.config
-  DIY_P1_SH: x86-lite.sh
+  DIY_P1_SH: x86-core.sh
   DIY_P2_SH: diy.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
