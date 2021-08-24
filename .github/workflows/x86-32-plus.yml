@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-lite-5.4
+name: x86-32-plus
 
 on:
   repository_dispatch:
