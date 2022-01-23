@@ -14,7 +14,7 @@ x64固件，精简了非常见型号老旧硬件驱动，以及新硬件驱动�
 此固件在以下各位大佬的基础上进行了最大程度上的精简，感谢大佬们的无私奉献。
 
 ====================================================================================
-
+firker脚本 https://github.com/firker/openwrt-Exclusive
 P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 lean固件源码地址：[https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
