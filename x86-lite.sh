@@ -22,8 +22,11 @@ sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' ./target/linux/x86/Makef
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 # sed -i '$a src-git ssr https://github.com/fw876/helloworld' feeds.conf.default
-sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+# sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
+git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
+git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
+# sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 # sed -i '$a src-git bypass https://github.com/garypang13/openwrt-bypass' feeds.conf.default
 git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
