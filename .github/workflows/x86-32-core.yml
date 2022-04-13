@@ -135,7 +135,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_5.4${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: OpenWrt_5.15${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     - name: 上传固件到NN网盘
@@ -173,7 +173,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        name: ${{ env.FILE_TIME }} 「 openwrt5.4-X86-core-32 」
+        name: ${{ env.FILE_TIME }} 「 openwrt5.15-X86-core-32 」
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
