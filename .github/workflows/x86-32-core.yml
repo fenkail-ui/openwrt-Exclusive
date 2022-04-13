@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-32-core-5.4
+name: x86-32-core-5.15
 
 on:
   repository_dispatch:
